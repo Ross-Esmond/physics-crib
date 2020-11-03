@@ -1,0 +1,94 @@
+\documentclass[fleqn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1.0in]{geometry}
+\usepackage{amsmath}
+
+
+\begin{document}
+\section*{\LARGE\underline{Physics Quiz 3 Formulas}}
+$ \mu_0 = 4\pi \cdot 10^{-7} \frac{N}{A^2}$ , \, 
+$\epsilon_0 = 8.854 \cdot 10^{-12} \frac{C^2}{N \cdot m^2}$
+\section*{Maxwell's Equations}
+\begin{equation} \label{eq1}
+ \mbox{\textbf{Gauss' Law for Electricity: }}\Phi_{E} = 
+    \oint_A \vec{E} \cdot \vec{dA} \, = \oint_V ( \nabla \cdot \vec{E}) \cdot \vec{dV}
+= \frac{q_{enc}}{\epsilon_0}
+\end{equation}
+
+\begin{equation} \label{eq1}
+ \mbox{\textbf{Gauss' Law for Magnetism: }}\Phi_{B} = 
+    \oint_A \vec{B} \cdot \vec{dA} \, = \oint_V ( \nabla \cdot \vec{B}) \cdot \vec{dV}
+= 0
+\end{equation}
+
+\begin{equation} \label{eq1}
+ \mbox{\textbf{Faraday's Law: }}
+    \oint_L \vec{E} \cdot \vec{dl} \, = \oint_A ( \nabla \times \vec{E}) \cdot \vec{dA}
+= - \frac{d\Phi_{B}}{dt}
+\end{equation}
+
+\begin{equation} \label{eq1}
+ \mbox{\textbf{Ampere's Law: }}
+    \oint_L \vec{B} \cdot \vec{dl} \, = \oint_A ( \nabla \times \vec{B}) \cdot \vec{dA}
+= \mu_{0}I_{int} + \mu_{0}\epsilon_{0}\kappa\frac{d\Phi_{E}}{dt}
+\end{equation}
+
+\section*{Chapter 29}
+
+\begin{equation} \label{eq1}
+ \mbox{\textbf{Inductance: }}\mathcal{E}_{ind} = -L \frac{dI}{dT}
+ \quad \quad \quad \mbox{\textbf{Solenoid: }}L = \frac{\mu_0 N^2 A}{l}
+ \quad \quad \quad \mbox{\textbf{Toroid: }}L = \frac{\mu_0 N^2 A}{2\pi r}
+\end{equation}
+
+\begin{equation}
+    \label{eq2}
+   \mbox{\textbf{Magnetic Potential Energy: }} U^B = \frac{1}{2}\frac{L}{I^2}
+\end{equation}
+
+\begin{equation}
+    \label{eq3}
+    \mbox{\textbf{Magnetic Potential Energy Density: }}u_B = \frac{1}{2}\frac{B^2}{\mu_0}
+\end{equation}
+
+\section*{Chapter 30}
+
+\begin{equation}
+    \label{eq3}
+    \mbox{\textbf{EM Waves: }}
+    {E_x}(z,t) = {E_0}sin(kx - \omega t)\hat{i} \\ \mbox{and} \\ {B_x}(z,t) = {B_0}sin(kx - \omega t)\hat{j}
+\end{equation}
+
+
+\begin{equation}
+    \label{eq3}
+    \mbox{\textbf{Poynting Vector: }}
+    \vec{S} = \frac{1}{\mu_0}\vec{E} \times \vec{B} 
+\end{equation}
+
+\begin{equation}
+    \label{eq3}
+    \mbox{\textbf{Electromagnetic Wave Power: }}
+    P = \iint \vec{S} \cdot \vec{dA}
+\end{equation}
+
+\begin{equation}
+    \label{eq3}
+    \mbox{\textbf{Speed of Light: }}
+    c = \; \frac{E_0}{B_0} = \; \frac{1}{\sqrt{\epsilon_0\mu_0\kappa}} = \; \frac{\omega}{k}  = \; 3.0 \cdot 10^8 \  \frac{m}{s}
+\end{equation}
+
+\begin{equation}
+    \label{eq3}
+    \mbox{\textbf{Root Mean Squared: }}
+    E_{rms}^{2} = \frac{1}{2}E_{max}^2 \\ \mbox{and} \\ B_{rms}^{2} = \frac{1}{2}B_{max}^2
+\end{equation}
+
+\begin{equation}
+    \label{eq3}
+    \mbox{\textbf{Electromagnetic Energy Density: }}
+    u_B = \frac{\epsilon_0}{E_{0}^2} = \frac{B_0^2}{\mu_0} = \sqrt{\frac{\epsilon_0}{\mu_0}}E_0 B_0
+\end{equation}
+
+
+\end{document}
