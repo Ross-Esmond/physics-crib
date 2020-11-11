@@ -1,9 +1,10 @@
 \documentclass[fleqn,12pt]{article}
 \usepackage[utf8]{inputenc}
-\usepackage[margin=1.0in]{geometry}
+\usepackage[margin=5mm]{geometry}
 \usepackage{amsmath}
 \usepackage[per-mode=repeated-symbol]{siunitx}
 \usepackage[nodisplayskipstretch]{setspace}
+\usepackage{tcolorbox}
 
 
 \begin{document}
@@ -12,6 +13,10 @@
 \section*{\LARGE\underline{Physics Quiz 3 Formulas}}
 $ \mu_0 = 4\pi \cdot 10^{-7} \si{\newton\per\ampere^2}$ , \, 
 $\epsilon_0 = 8.854 \cdot 10^{-12} \si{\coulomb^2\per\newton\meter^2}$
+
+\begin{equation}
+  \vec{F}^\mathrm{B} = q(\vec{v} \times \vec{B}) = I\vec{\ell} \times \vec{B}
+\end{equation}
 \section*{Maxwell's Equations}
 \begin{equation} \label{eq1}
  \mbox{\textbf{Gauss' Law for Electricity: }}\Phi_{E} = 
@@ -40,9 +45,9 @@ $\epsilon_0 = 8.854 \cdot 10^{-12} \si{\coulomb^2\per\newton\meter^2}$
 \section*{Chapter 29}
 
 \begin{equation} \label{eq1}
- \mbox{\textbf{Inductance: }}\mathcal{E}_\mathrm{ind} = -L \frac{dI}{dt}
- \quad \quad \quad \mbox{\textbf{Solenoid: }}L = \frac{\mu_0 N^2 A}{l}
- \quad \quad \quad \mbox{\textbf{Toroid: }}L = \frac{\mu_0 N^2 A}{2\pi r}
+ \textbf{Inductance: }\mathcal{E}_\mathrm{ind} = -L \frac{dI}{dt}
+ \quad \quad \quad \textbf{Solenoid: }L = \frac{\mu_0 N^2 A}{l}
+ \quad \quad \quad \textbf{Toroid: }L = \frac{\mu_0 N^2 A}{2\pi r}
 \end{equation}
 
 \begin{equation}
@@ -60,7 +65,7 @@ $\epsilon_0 = 8.854 \cdot 10^{-12} \si{\coulomb^2\per\newton\meter^2}$
 \begin{equation}
     \label{eq3}
     \mbox{\textbf{EM Waves: }}
-    {E_x}(z,t) = {E_0}\sin(kx - \omega t)\hat{i} \\ \mbox{and} \\ {B_x}(z,t) = {B_0}\sin(kx - \omega t)\hat{j}
+    {E}(z,t) = {E_0}\sin(kz - \omega t)\hat{i} \\ \mbox{and} \\ {B}(z,t) = {B_0}\sin(kz - \omega t)\hat{j}
 \end{equation}
 
 
@@ -79,7 +84,7 @@ $\epsilon_0 = 8.854 \cdot 10^{-12} \si{\coulomb^2\per\newton\meter^2}$
 \begin{equation}
     \label{eq3}
     \mbox{\textbf{Speed of Light: }}
-    c = \; \frac{E_0}{B_0} = \; \frac{1}{\sqrt{\epsilon_0\mu_0\kappa}} = \; \frac{\omega}{k}  = \; 3.0 \cdot 10^8 \  \si{\meter\per\second}
+    c = \; \frac{E_0}{B_0} = \; \frac{1}{\sqrt{\epsilon_0\mu_0\kappa}}  = \; 3.0 \cdot 10^8 \  \si{\meter\per\second}
 \end{equation}
 
 \begin{equation}
@@ -90,8 +95,8 @@ $\epsilon_0 = 8.854 \cdot 10^{-12} \si{\coulomb^2\per\newton\meter^2}$
 
 \begin{equation}
     \label{eq3}
-    \mbox{\textbf{Electromagnetic Energy Density: }}
-    u_B = \frac{\epsilon_0}{E_{0}^2} = \frac{B_0^2}{\mu_0} = \sqrt{\frac{\epsilon_0}{\mu_0}}E_0 B_0
+    \mbox{\textbf{Electromagnetic Energy Density in a wave: }}
+    u = \frac{1}{2}\epsilon_0E^2 = \frac{1}{2}\frac{B^2}{\mu_0} = \sqrt{\frac{\epsilon_0}{\mu_0}}E B
 \end{equation}
 
 
