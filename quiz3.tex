@@ -47,8 +47,9 @@ $\epsilon_0 = 8.854 \cdot 10^{-12} \si{\coulomb^2\per\newton\meter^2}$
 \begin{equation} \label{eq1}
  \textbf{Inductance: }\mathcal{E}_\mathrm{ind} = -L \frac{dI}{dt}
  \quad \quad \quad \textbf{Solenoid: }L = \frac{\mu_0 N^2 A}{l}
- \quad \quad \quad \textbf{Toroid: }L = \frac{\mu_0 N^2 A}{2\pi r}
+ \quad \quad \quad \textbf{Toroid: }L = \frac{\mu_0 N^2}{2\pi}\ln \left( \frac{R_\mathrm{out}}{R_\mathrm{in}} \right)h
 \end{equation}
+where $A$ is the inner area, $l$ is the length, $R_\mathrm{out}$ and $R_\mathrm{in}$ are the outer and inner radius, $h$ is the height, and $N$ is the number of windings.
 
 \begin{equation}
     \label{eq2}
